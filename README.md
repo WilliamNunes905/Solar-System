@@ -1,27 +1,33 @@
-# React + TypeScript + Vite
+# Orientações
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<details>
+  <summary><strong>‼️ Antes de começar a desenvolver</strong></summary><br />
 
-Currently, two official plugins are available:
+1. Clone o repositório
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `git clone git@github.com:WilliamNunes905/Solar-System.git`.
+- Entre na pasta do repositório que você acabou de clonar:
+  - `cd sd-028-b-solar-system`
 
-## Expanding the ESLint configuration
+2. Instale as dependências e inicialize o projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Instale as dependências:
+  - `npm install`
 
-- Configure the top-level `parserOptions` property like this:
+3. Rodar o projeto
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- Script para iniciar o projeto
+  - `npm run dev`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+</details>
+
+<details>
+<summary><strong>🏗 Estrutura do projeto</strong></summary><br />
+
+O arquivo `src/components` contém a estrutura de componentes, que cria alguns elementos JSX. Leia cada componente atentamente para entender o que o código está fazendo.
+
+É no `src/data` que fica armazenados todas os dados referente as missões e os planetas.
+
+O arquivo `src/assets` contém todas as imagens dos planetas.
+
+</details>
