@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./assets//background.png');
+    color: white;
+    font-family: Epilogue, sans-serif;
+}
+
+header {
+    font-size: 2rem;
+    margin: 50px 0 20px;
+    text-align: center;
+}
+
+h2 {
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 2.5rem;
+    margin: 50px;
+    padding: 25px;
+    text-align: center;
+}
