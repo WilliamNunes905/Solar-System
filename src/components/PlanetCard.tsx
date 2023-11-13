@@ -5,9 +5,9 @@ type PlanetProps = {
 
 function PlanetCard({ planetName, planetImage }: PlanetProps) {
   return (
-    <div data-testid="planet-card">
-      <img src={ planetImage } alt={ planetName } />
-      <p data-testid="planet-name">{ planetName }</p>
+    <div data-testid="planet-card" className="box">
+      <img src={ planetImage } alt={ planetName } className={ planetName } />
+      <p data-testid="planet-name" className="header">{ planetName }</p>
     </div>
   );
 }

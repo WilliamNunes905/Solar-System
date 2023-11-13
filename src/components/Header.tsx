@@ -2,7 +2,7 @@ function Header() {
   return (
     <div>
       <header>
-        <h1>Sistema Solar</h1>
+        <h1 className="header headerTitle">Sistema Solar</h1>
       </header>
     </div>
   );

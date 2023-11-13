@@ -4,9 +4,10 @@ import planets from '../data/planets';
 
 function SolarSystem() {
   return (
-    <div data-testid="solar-system">
-      <Title headline="PLANETAS" />
-      {
+    <div data-testid="solar-system" className="mission">
+      <Title headline="Planetas" />
+      <div className="system">
+        {
         planets.map(({ name, image }) => (
           <PlanetCard
             key={ name }
@@ -15,6 +16,7 @@ function SolarSystem() {
           />
         ))
       }
+      </div>
     </div>
   );
 }
