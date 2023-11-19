@@ -7,7 +7,7 @@
 
 - `git clone git@github.com:WilliamNunes905/Solar-System.git`.
 - Entre na pasta do repositório que você acabou de clonar:
-  - `cd sd-028-b-solar-system`
+  - `cd Solar-System`
 
 2. Instale as dependências e inicialize o projeto
 
