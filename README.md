@@ -1,15 +1,24 @@
-# Orientações
+# Sistema Solar 🌍🌞🪐
 
-<details>
-  <summary><strong>‼️ Instalando Dependências</strong></summary><br />
+Este é um projeto que simula o sistema solar, desenvolvido utilizando TypeScript, React e Vite. A aplicação permite a visualização dos planetas e suas órbitas de forma interativa.
 
-1. Clone o repositório
+## 🛠️ Tecnologias e Ferramentas
 
+- **TypeScript**: Usado para tipagem estática e maior robustez no desenvolvimento.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Vite**: Ferramenta de construção rápida e leve para projetos web.
+
+## 🚀 Instalação e Execução
+
+Siga as instruções abaixo para clonar o repositório, instalar as dependências e executar o projeto localmente.
+
+1. **Clone o repositório:**
 - `git clone git@github.com:WilliamNunes905/Solar-System.git`.
+
 - Entre na pasta do repositório que você acabou de clonar:
   - `cd Solar-System`
 
-2. Instale as dependências e inicialize o projeto
+2. **Instale as dependências e inicialize o projeto:**
 
 - Instale as dependências:
   - `npm install`
@@ -19,15 +28,18 @@
 - Script para iniciar o projeto
   - `npm run dev`
 
-</details>
+## <strong>📁 Estrutura do projeto</strong><br />
 
-<details>
-<summary><strong>🏗 Estrutura do projeto</strong></summary><br />
-
-O arquivo `src/components` contém a estrutura de componentes, que cria alguns elementos JSX. Leia cada componente atentamente para entender o que o código está fazendo.
-
-É no `src/data` que fica armazenados todas os dados referente as missões e os planetas.
-
-O arquivo `src/assets` contém todas as imagens dos planetas.
-
-</details>
+```
+sistema-solar/
+│
+├── public/               # Arquivos públicos
+├── src/                  # Código-fonte do projeto
+│   ├── assets/           # Recursos como imagens, ícones, etc.
+│   ├── components/       # Componentes reutilizáveis
+│   ├── data/             # Fica armazenados todas os dados referente as missões e os planetas.
+│   ├── App.tsx           # Componente principal da aplicação
+│   └── main.tsx          # Arquivo de entrada do React
+├── index.html            # Arquivo HTML principal
+└── package.json          # Dependências e scripts do projeto
+```
